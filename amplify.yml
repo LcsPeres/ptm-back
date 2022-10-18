@@ -1,0 +1,15 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    postBuild:
+      commands:
+        - npm start
+frontend:
+  phases:
+    preBuild:
+      commands: []
+    build:
+      commands: []

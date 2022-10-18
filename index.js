@@ -25,5 +25,5 @@ app.use('/ptm-server/overview/', overviewRoutes);
 app.use('/ptm-server/task/', columnRoutes);
 
 app.listen(port, () => {
-  console.log(`Priority Task Manager listening at http://localhost:${port}`);
+  console.log(`Priority Task Manager listening at port ${port}`);
 });
